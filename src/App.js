@@ -27,13 +27,14 @@ function App() {
           <p className='subTitle'>Pick a beach and see our avalible instructors</p>
           <div id='dropdownBeaches'>
             <select placeholder='Choose a beach' id='beaches'>
-            <option value="" disabled selected hidden>Choose A Beach</option>
+            <option hidden>Choose A Beach</option>
               {/* This will be populated by the SQL Database, only show beaches instructors are present at */}
             </select>
             <p className='subTitle'>Or Sign up as an instructor today, <a href='#'>Click Here</a></p>
           </div>
         </div>
       </header>
+      <section>d</section>
     </div>
   );
 } 
