@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './assets/styles/user.css'
 import socialImg from './assets/images/social.png';
 import exerciseImg from './assets/images/exercise.png';
 import funImg from './assets/images/fun.png';
@@ -9,8 +10,8 @@ function App() {
     <div className="App">
       <header className="App-header">
                 {/*Instructor login*/}
-        <div id='instructorLogIn'>
-          <form action="/login" method="post">
+        <div id='loginPlacement'>
+          <form id='instructorLogIn' action="/login" method="post">
             <div id='email'>
                 <label>Email:</label>
                 <input placeholder='sample@mail.com' type="text" name="username"/>
@@ -19,7 +20,7 @@ function App() {
                 <label>Password:</label>
                 <input placeholder='*******' type="password" name="password"/>
             </div>
-            <div>
+            <div id='submit'>
                 <input type="submit" value="Log In"/>
             </div>
           </form>

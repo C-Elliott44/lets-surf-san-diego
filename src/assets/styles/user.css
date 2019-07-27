@@ -1,0 +1,76 @@
+.App {
+    display: grid;
+    grid-template-rows: repeat(4, min-content);
+}
+
+/*Instructor Login*/
+
+#loginPlacement {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 3;
+}
+
+#instructorLogIn {
+    display: grid;
+    grid-template-columns: auto min-content min-content min-content;
+}
+
+#email {
+    grid-column: 2 / span 1;
+}
+
+#password {
+    grid-column: 3 / span 1;
+}
+
+#submit {
+    grid-column: 4 / span 1;
+}
+
+/*Header Text*/
+
+.App-header {
+    grid-row: 2 / span 1;
+    display: grid;
+    grid-template-columns: 1fr auto 3fr;
+    grid-template-rows: 30px 120px min-content 150px;
+}
+
+#headerText {
+    grid-row: 3 / span 1;
+    grid-column: 2 / span 1;
+}
+
+/*Instructor Section in user view*/
+
+#instructorDisplay {
+    grid-row: 2 / span 1;
+    display: grid;
+}
+
+/*About section*/
+
+#about {
+    grid-row: 3 / span 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#about {
+    grid-column: 1 / span 1;
+}
+
+#social {
+    grid-column: 2 / span 1;
+}
+
+#fun {
+    grid-column: 3 / span 1;
+}
+
+/*Footer Section*/
+
+footer {
+    grid-row: 4 / span 1;
+    display: grid;
+}
