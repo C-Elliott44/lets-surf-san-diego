@@ -8,11 +8,15 @@
 #loginPlacement {
     grid-row: 1 / span 1;
     grid-column: 1 / span 3;
+
+    padding: 10px;
 }
 
 #instructorLogIn {
     display: grid;
     grid-template-columns: auto min-content min-content min-content;
+
+    grid-column-gap: 10px;
 }
 
 #email {
